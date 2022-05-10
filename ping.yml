@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+    - name: check connectivity
+      ping:
+           data: success
